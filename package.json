@@ -1,0 +1,23 @@
+{
+  "name": "btc-signer-mcp-server",
+  "version": "1.0.0",
+  "description": "An MCP server for Bitcoin signing and address generation",
+  "main": "build/server.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && chmod +x build/server.js",
+    "start": "node build/server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@noble/curves": "^1.8.1",
+    "@scure/base": "^1.1.5",
+    "@scure/bip32": "^1.3.3",
+    "@scure/btc-signer": "^1.0.4",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.8",
+    "typescript": "^5.4.5"
+  }
+}
