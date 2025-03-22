@@ -9,7 +9,7 @@
     "prepare": "npm run build"
   },
   "bin": {
-    "btc-signer-server": "./build/server.js"
+    "mcp-btc": "./build/server.js"
   },
   "files": [
     "build"
