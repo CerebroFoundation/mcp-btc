@@ -8,7 +8,7 @@ import { secp256k1 } from '@noble/curves/secp256k1'; // Import secp256k1
 
 
 const server = new McpServer({
-    name: "btc-signer-server",
+    name: "mcp-btc",
     version: "1.0.0",
 });
 
