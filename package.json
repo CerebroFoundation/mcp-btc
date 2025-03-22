@@ -1,5 +1,5 @@
 {
-  "name": "@cerebro/mcp-btc",
+  "name": "@cerebrofoundation/mcp-btc",
   "version": "1.0.0",
   "description": "An MCP server for all Bitcoin related functions",
   "main": "build/server.js",
