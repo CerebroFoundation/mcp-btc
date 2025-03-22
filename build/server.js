@@ -6,7 +6,7 @@ import { hex } from "@scure/base"; // Import hex from @scure/base
 import { secp256k1 } from '@noble/curves/secp256k1'; // Import secp256k1
 const server = new McpServer({
     name: "mcp-btc",
-    version: "1.0.0",
+    version: "1.0.1",
 });
 // --- Helper Functions ---
 // Checks if the input is valid hex.  Throws if invalid.

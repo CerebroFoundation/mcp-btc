@@ -1,6 +1,6 @@
 {
   "name": "@cerebrofoundation/mcp-btc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An MCP server for all Bitcoin related functions",
   "main": "build/server.js",
   "type": "module",
